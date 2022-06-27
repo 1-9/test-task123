@@ -12,7 +12,7 @@ body
     background: #fff;
     color: #111;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.3;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -30,8 +30,9 @@ a:hover
 .site-header-bnr-wrap2,
 section .sec-wrap
 {
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .green-btn
@@ -154,6 +155,7 @@ section .sec-wrap
     font-weight: 900;
     max-width: 580px;
     margin: 0 0 20px;
+    line-height: 1.3;
 }
 
 .site-header-bnr .aside-text
@@ -176,12 +178,12 @@ section .sec-wrap
     /*background: #DAECFF url(../img/services-dec.png) bottom 5% right 10% no-repeat;*/
     background: #DAECFF url(../img/services-bg.png) bottom right no-repeat;
     background-size: contain;
-    padding: 120px 0;
+    padding: 119px 0 104px;
 }
 
 .sec-services .h2-like
 {
-    margin-bottom: 70px;
+    margin-bottom: 77px;
 }
 
 .sec-services .services-list
@@ -195,7 +197,7 @@ section .sec-wrap
     background: #fff;
     border-radius: 15px;
     margin-bottom: 10px;
-    padding: 14px 39px 13px 44px;
+    padding: 18px 43px 19px 44px;
 }
 
 .sec-services .h5-like
@@ -264,15 +266,15 @@ section .sec-wrap
 {
     display: block;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.7;
     position: relative;
-    margin: 32px 0 34px;
-    padding: 10px 30px 10px 52px;
+    margin: 29px 0 28px;
+    padding: 10px 30px 15px 52px;
 }
 
 .sec-services .sp-open .text p
 {
-    margin: 0 0 1.5em;
+    margin: 0 0 1.3em;
 }
 
 .sec-services .sp-open .text p:last-child
@@ -297,19 +299,19 @@ section .sec-wrap
 {
     background: url(../img/steps-bg.png) bottom right no-repeat;
     background-size: contain;
-    padding: 123px 0;
+    padding: 122px 0 128px;
 }
 
 .sec-steps .h2-like
 {
-    margin-bottom: 82px;
+    margin-bottom: 84px;
 }
 
 .sec-steps .steps-slider
 {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 84px;
+    margin-bottom: 59px;
 }
 
 .sec-steps .steps-slide
@@ -318,7 +320,7 @@ section .sec-wrap
     border-radius: 15px;
     flex-basis: calc(50% - 24px);
     margin: 0 12px 25px;
-    padding: 53px 35px 59px 73px;
+    padding: 84px 35px 54px 68px;
 }
 
 .sec-steps .steps-slide .wrap
@@ -333,7 +335,7 @@ section .sec-wrap
     color: #000;
     font-size: 21px;
     font-weight: bold;
-    margin: 0 0 29px;
+    margin: 0 0 21px;
     width: 100%;
 }
 
@@ -341,6 +343,7 @@ section .sec-wrap
 {
     flex: 1;
     font-size: 18px;
+    line-height: 1.4;
     padding-right: 10px;
     word-break: break-word;
 }
@@ -388,9 +391,14 @@ section .sec-wrap
     padding: 121px 0 83px;
 }
 
+.sec-projects .sec-wrap
+{
+    max-width: 1224px;
+}
+
 .sec-projects .h2-like
 {
-    margin-bottom: 51px;
+    margin-bottom: 49px;
 }
 
 .sec-projects .projects-wrap
@@ -454,7 +462,7 @@ section .sec-wrap
 {
     background: url(../img/info-bg.png) left top no-repeat;
     background-size: contain;
-    padding: 137px 0 104px;
+    padding: 135px 0 104px;
 }
 
 .sec-info .sec-wrap
@@ -462,7 +470,8 @@ section .sec-wrap
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    max-width: 1400px;
+    max-width: 1430px;
+    justify-content: space-between;
 }
 
 .sec-info .h2-like
@@ -485,7 +494,8 @@ section .sec-wrap
 .sec-info .text
 {
     font-size: 18px;
-    margin-bottom: 45px;
+    margin-bottom: 49px;
+    line-height: 1.4;
 }
 
 .sec-info .call-form-btn
@@ -500,7 +510,7 @@ section .sec-wrap
 {
     background: #DAECFF;
     background-size: contain;
-    padding: 180px 0 128px;
+    padding: 179px 0 128px;
     text-align: center;
 }
 
@@ -520,18 +530,19 @@ section .sec-wrap
 
 .sec-form .sec-wrap
 {
-    max-width: 470px;
+    max-width: 500px;
 }
 
 .sec-form .h2-like
 {
-    margin-bottom: 26px;
+    margin-bottom: 35px;
 }
 
 .sec-form .aside-text
 {
     font-size: 18px;
-    margin-bottom: 27px;
+    line-height: 1.7;
+    margin: 0 0 27px;
 }
 
 .sec-form input[type="text"], 
@@ -566,7 +577,8 @@ section .sec-wrap
 
 .sec-form input[type="submit"]
 {
-    padding: 20px 83px 21px;
+    padding: 19px 83px 20px;
+    margin-top: 10px;
 }
 
 
@@ -575,12 +587,12 @@ section .sec-wrap
 .site-footer
 {
     background: #64ABF9;
-    padding: 101px 0 79px;
+    padding: 101px 0 82px;
 }
 
 .site-footer .footer-wrap
 {
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -599,7 +611,7 @@ section .sec-wrap
 .site-footer .logo-wrap
 {
     display: block;
-    margin-bottom: 45px;
+    margin-bottom: 41px;
     width: 280px;
 }
 
@@ -638,7 +650,7 @@ section .sec-wrap
 {
     display: flex;
     flex-direction: column;
-    padding-top: 22px;
+    padding-top: 24px;
 }
 
 .site-footer .foo-line-phone a
@@ -646,14 +658,14 @@ section .sec-wrap
     background: url(../img/soc-ico-vb.svg) 0 0 no-repeat;
     color: #fff;
     font-size: 20px;
-    margin-bottom: 13px;
+    margin-bottom: 7px;
     min-height: 30px;
     padding-left: 33px;
 }
 
 .site-footer .foo-line-email
 {
-    padding-top: 22px;
+    padding-top: 24px;
 }
 
 .site-footer .foo-line-email a
@@ -668,7 +680,7 @@ section .sec-wrap
 {
     color: #fff;
     font-size: 18px;
-    padding-top: 120px;
+    padding-top: 122px;
     text-align: center;
 }
 
