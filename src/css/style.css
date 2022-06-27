@@ -52,6 +52,7 @@ section .sec-wrap
 .green-btn:hover
 {
     border-color: #67AEFC;
+    text-decoration: none;
 }
 
 .green-btn:active
@@ -244,6 +245,11 @@ section .sec-wrap
 .sec-services .text
 {
     display: none;
+    font-size: 18px;
+    line-height: 1.7;
+    position: relative;
+    margin: 29px 0 28px;
+    padding: 10px 30px 15px 52px;
 }
 
 .sec-services .services-elem.sp-open .h5-like
@@ -260,16 +266,6 @@ section .sec-wrap
 .sec-services .sp-open .toggle-btn
 {
     transform: rotate(90deg);
-}
-
-.sec-services .sp-open .text
-{
-    display: block;
-    font-size: 18px;
-    line-height: 1.7;
-    position: relative;
-    margin: 29px 0 28px;
-    padding: 10px 30px 15px 52px;
 }
 
 .sec-services .sp-open .text p
@@ -299,6 +295,7 @@ section .sec-wrap
 {
     background: url(../img/steps-bg.png) bottom right no-repeat;
     background-size: contain;
+    overflow: hidden;
     padding: 122px 0 128px;
 }
 
@@ -309,18 +306,30 @@ section .sec-wrap
 
 .sec-steps .steps-slider
 {
-    display: flex;
-    flex-wrap: wrap;
+    /*display: flex;
+    flex-wrap: wrap;*/
     margin-bottom: 59px;
+}
+
+.sec-steps .sec-wrap
+{
+    max-width: 1400px;
+}
+
+.sec-steps .steps-slider .slick-track
+{
+    display: flex;
 }
 
 .sec-steps .steps-slide
 {
     border: 2px solid #67AEFC;
     border-radius: 15px;
-    flex-basis: calc(50% - 24px);
+    /*flex-basis: calc(50% - 24px);*/
     margin: 0 12px 25px;
     padding: 84px 35px 54px 68px;
+    width: 50%;
+    display: inline-flex;
 }
 
 .sec-steps .steps-slide .wrap

@@ -19,7 +19,7 @@
                     <li><a href="#">Этапы</a></li>
                     <li><a href="#">Дизайнеры</a></li>
                 </ul>
-                <button class="order-btn green-btn" type="button">Заказать</button>
+                <a href="#contact-form-block" class="order-btn green-btn">Заказать</a>
             </div>
             <div class="site-header-bnr">
                 <img src="src/img/bnr-bg.jpg" alt="" class="bg-img">
@@ -31,7 +31,7 @@
                             до пользовательского интерфейса в сжатые сроки 
                             с командой Virtual Designers 
                         </p>
-                        <button class="btn green-btn" type="button">Заказать</button>
+                        <a href="#contact-form-block" class="btn green-btn">Заказать</a>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@
                             <h5 class="h5-like">Дизайн портала <button class="toggle-btn" type="button"></button></h5>
                             <div class="text">Дизайн портала — это оформление контента, совокупность всех графических элементов на веб-странице. Основная задача дизайна — познакомить пользователя со страницей. Продуманный дизайн создает нужное впечатление о компании.</div>
                         </li>
-                        <li class="services-elem sp-open">
+                        <li class="services-elem">
                             <h5 class="h5-like">Дизайн адаптивной мобильной версии <button class="toggle-btn" type="button"></button></h5>
                             <div class="text">
                                 <p>Мобильная версия сайта удобна для пользователя, потому что сильно упрощена по сравнению с обычной версией. Мобильная версия дает наиболее приоритетную информацию, а также позволяет совершать заказ/покупку с минимумом действий.</p>
@@ -109,8 +109,8 @@
                         </div>
                     </div><!-- /steps-slider -->
                     <div class="slider-buttons">
-                        <button type="button"></button>
-                        <button type="button"></button>
+                        <button class="arrow-prev" type="button"></button>
+                        <button class="arrow-next" type="button"></button>
                     </div>
                 </div>
             </section>
@@ -162,12 +162,12 @@
                     <div class="wrap">
                         <h2 class="h2-like">Необходимо больше информации?</h2>
                         <div class="text">Если Вы владелец онлайн-магазина или только начинаете свой путь в электронной коммерции и вам нужен уникальный дизайн онлайн магазина для стартапа, обратитесь к нашему веб дизайнеру. За выгодную цену и короткий период времени, он поможет  визуализировать ваш веб проект.</div>
-                        <button type="button" class="call-form-btn green-btn">Оставить заявку</button>
+                        <a href="#contact-form-block" class="call-form-btn green-btn">Оставить заявку</a>
                     </div>
                     <img src="src/img/info-dec.png" alt="" class="dec-img">
                 </div>
             </section>
-            <section class="sec-form">
+            <section class="sec-form" id="contact-form-block">
                 <div class="wrap">
                     <img src="src/img/contact-dec1.png" alt="" class="img-dec" />
                     <div class="sec-wrap">
@@ -210,5 +210,7 @@
             </div>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.6.0,npm/slick-carousel@1.8.1"></script>
+    <script src="src/js/main.js"></script>
 </body>
 </html>
