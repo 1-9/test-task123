@@ -5,29 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test Task</title>
+    <link rel="stylesheet" href="src/css/normalize.css" media="all">
+    <link rel="stylesheet" href="src/css/style.css" media="all">
 </head>
 <body>
     <div class="site-wrapper">
         <header class="site-header">
-            <div class="header-wrap">
-                <div class="site-header_topline">
-                    <a href="#" class="logo-wrap"><img src="src/img/logo.svg" alt="" /></a>
-                    <ul class="site-header_nav">
-                        <li><a href="#">Услуги</a></li>
-                        <li><a href="#">Портфолио</a></li>
-                        <li><a href="#">Этапы</a></li>
-                        <li><a href="#">Дизайнеры</a></li>
-                    </ul>
-                    <button class="order-btn" type="button">Заказать</button>
-                </div>
-                <div class="site-header-bnr">
-                    <h1 class="h1-like">Разработка интернет-магазина с нуля за неделю</h1>
-                    <p class="aside-text">
-                        Дизайн интернет магазина, элементов микро UX, корзин, личного кабинета - от фирменного стиля 
-                        до пользовательского интерфейса в сжатые сроки 
-                        с командой Virtual Designers 
-                    </p>
-                    <button class="btn" type="button">Заказать</button>
+            <div class="site-header_topline">
+                <a href="#" class="logo-wrap"><img src="src/img/logo.svg" alt="" /></a>
+                <ul class="site-header_nav">
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Портфолио</a></li>
+                    <li><a href="#">Этапы</a></li>
+                    <li><a href="#">Дизайнеры</a></li>
+                </ul>
+                <button class="order-btn green-btn" type="button">Заказать</button>
+            </div>
+            <div class="site-header-bnr">
+                <img src="src/img/bnr-bg.jpg" alt="" class="bg-img">
+                <div class="site-header-bnr-wrap">
+                    <div class="site-header-bnr-wrap2">
+                        <h1 class="h1-like">Разработка интернет-магазина с нуля за неделю</h1>
+                        <p class="aside-text">
+                            Дизайн интернет магазина, элементов микро UX, корзин, личного кабинета - от фирменного стиля 
+                            до пользовательского интерфейса в сжатые сроки 
+                            с командой Virtual Designers 
+                        </p>
+                        <button class="btn green-btn" type="button">Заказать</button>
+                    </div>
                 </div>
             </div>
         </header>
@@ -36,27 +41,27 @@
                 <div class="sec-wrap">
                     <h2 class="h2-like">Что входит в услугу по созданию дизайна интернет-магазина?</h2>
                     <ul class="services-list">
-                        <li>
+                        <li class="services-elem">
                             <h5 class="h5-like">Дизайн портала <button class="toggle-btn" type="button"></button></h5>
                             <div class="text">Дизайн портала — это оформление контента, совокупность всех графических элементов на веб-странице. Основная задача дизайна — познакомить пользователя со страницей. Продуманный дизайн создает нужное впечатление о компании.</div>
                         </li>
-                        <li>
-                            <h5 class="h5-like">Дизайн адаптивной мобильной версии</h5>
+                        <li class="services-elem sp-open">
+                            <h5 class="h5-like">Дизайн адаптивной мобильной версии <button class="toggle-btn" type="button"></button></h5>
                             <div class="text">
                                 <p>Мобильная версия сайта удобна для пользователя, потому что сильно упрощена по сравнению с обычной версией. Мобильная версия дает наиболее приоритетную информацию, а также позволяет совершать заказ/покупку с минимумом действий.</p>
                                 <p>При адаптивной версии вся структура сайта автоматически подстраивается под различную ширину экрана. Для того, чтобы получить рабочий продукт не нужно писать все с нуля — достаточно лишь подправить CSS и HTML.</p>
                                 <p>Один URL избавляет нас от ненужных редиректов, и надобности пользователю запоминать адрес мобильной версии.</p>
                             </div>
                         </li>
-                        <li>
+                        <li class="services-elem">
                             <h5 class="h5-like">Дизайн десктопной версии <button class="toggle-btn" type="button"></button></h5>
                             <div class="text">Десктопную версию сайта просматривают пользователи со стационарных компьютеров. Основная цель: посерфить, углубиться в детали, получить больше информации, сравнить, выбрать, прицениться.</div>
                         </li>
-                        <li>
+                        <li class="services-elem">
                             <h5 class="h5-like">Пользовательский интерфейс <button class="toggle-btn" type="button"></button></h5>
                             <div class="text">Цель дизайна пользовательского интерфейса - сделать взаимодействие максимально простым и эффективным, насколько это возможно, с точки зрения достижения целей пользователя. Хороший дизайн пользовательского интерфейса облегчает выполнение поставленной задачи, не привлекая к себе лишнего внимания.</div>
                         </li>
-                        <li>
+                        <li class="services-elem">
                             <h5 class="h5-like">Микро UX <button class="toggle-btn" type="button"></button></h5>
                             <div class="text">Микро-анимация может изменить восприятие продукта, пользовательское поведение и повысить конверсию. Небольшие, преимущественно функциональные анимации поддерживают пользователя: обеспечивают визуальную обратную связь и более понятно отражают происходящие изменения. Микро-анимации способны многое объяснить без слов.</div>
                         </li>
@@ -103,6 +108,10 @@
                             </div>
                         </div>
                     </div><!-- /steps-slider -->
+                    <div class="slider-buttons">
+                        <button type="button"></button>
+                        <button type="button"></button>
+                    </div>
                 </div>
             </section>
             <section class="sec-projects">
@@ -150,24 +159,28 @@
             </section>
             <section class="sec-info">
                 <div class="sec-wrap">
-                    <h2 class="h2-like">Необходимо больше информации?</h2>
                     <div class="wrap">
+                        <h2 class="h2-like">Необходимо больше информации?</h2>
                         <div class="text">Если Вы владелец онлайн-магазина или только начинаете свой путь в электронной коммерции и вам нужен уникальный дизайн онлайн магазина для стартапа, обратитесь к нашему веб дизайнеру. За выгодную цену и короткий период времени, он поможет  визуализировать ваш веб проект.</div>
-                        <button type="button" class="call-form-btn">Оставить заявку</button>
+                        <button type="button" class="call-form-btn green-btn">Оставить заявку</button>
                     </div>
                     <img src="src/img/info-dec.png" alt="" class="dec-img">
                 </div>
             </section>
             <section class="sec-form">
-                <div class="sec-wrap">
-                    <h2 class="h2-like">Обсудить проект</h2>
-                    <p class="aside-text">Расскажите о своих бизнес-целях и мы поможем вам в их достижении</p>
-                    <form action="POST" class="cotact-form">
-                        <input type="text" name="name" placeholder="Имя" required>
-                        <input type="text" name="messenger" placeholder="Telegram/Viber" required>
-                        <input type="email" name="email" placeholder="Email" required>
-                        <input type="submit" value="Отправить">
-                    </form>
+                <div class="wrap">
+                    <img src="src/img/contact-dec1.png" alt="" class="img-dec" />
+                    <div class="sec-wrap">
+                        <h2 class="h2-like">Обсудить проект</h2>
+                        <p class="aside-text">Расскажите о своих бизнес-целях и мы поможем вам в их достижении</p>
+                        <form action="POST" class="cotact-form">
+                            <input type="text" name="name" placeholder="Имя" required>
+                            <input type="text" name="messenger" placeholder="Telegram/Viber" required>
+                            <input type="email" name="email" placeholder="Email" required>
+                            <input class="green-btn" type="submit" value="Отправить">
+                        </form>
+                    </div>
+                    <img src="src/img/contact-dec2.png" alt="" class="img-dec" />
                 </div>
             </section>
         </main>
@@ -181,7 +194,7 @@
                             <a href="#" class="social-lnk-fb"></a>
                             <a href="#" class="social-lnk-tg"></a>
                             <a href="#" class="social-lnk-vb"></a>
-                            <a href="#" class="social-lnk-wu"></a>
+                            <a href="#" class="social-lnk-wa"></a>
                         </div>
                     </div>
                     <div class="foo-line-phone">
